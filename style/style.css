@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  color: white;
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, #5a5c6a 0%, #202d3a 81.3%);
+  font-family: 'Rajdhani', sans-serif;
+}
+
+body #header {
+  text-align: center;
+  background-color: gray;
+  text-shadow: 5px 5px 5px black;
+}
+
+body #in-out {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  font-size: larger;
+}
+
+body #in-out #input {
+  text-align: center;
+  width: 50vw;
+}
+
+body #in-out #input #editor {
+  resize: none;
+  width: 40vw;
+  height: 70vh;
+  font-size: larger;
+  outline: none;
+}
+
+body #in-out #output {
+  max-width: 50vw;
+  word-wrap: break-word;
+  margin: 0 5vw;
+}
+
+body #in-out #output h2 {
+  text-align: center;
+}
+
+body #in-out #output #preview {
+  width: 40vw;
+  border: 3px white solid;
+  background-color: #202d3a;
+  padding: 0 10px;
+  max-height: 70vh;
+  min-height: 70vh;
+  overflow-y: scroll;
+}
+/*# sourceMappingURL=style.css.map */
