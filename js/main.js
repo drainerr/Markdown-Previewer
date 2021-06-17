@@ -7,7 +7,7 @@ var updatePreview = ()=> {
 };
 editor.addEventListener('keyup',updatePreview);
 
-var defaultText = editor.innerHTML = `# Welcome to my React Markdown Previewer!
+var defaultText = editor.innerHTML = `# Welcome to my Markdown Previewer!
 ## This is a sub-heading...
 ### And here's some other cool stuff:
   
