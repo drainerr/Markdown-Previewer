@@ -47,8 +47,7 @@ body #in-out #output {
   word-wrap: break-word;
   margin: 0 5vw;
 }
-
-body #in-out #output h2 {
+#in,#out {
   text-align: center;
 }
 
@@ -60,5 +59,9 @@ body #in-out #output #preview {
   max-height: 70vh;
   min-height: 70vh;
   overflow-y: scroll;
+}
+img {
+  height:150px;
+  width:130px;
 }
 /*# sourceMappingURL=style.css.map */
