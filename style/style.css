@@ -1,12 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
 body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin: 0;
   padding: 0;
   display: flex;
@@ -47,7 +47,8 @@ body #in-out #output {
   word-wrap: break-word;
   margin: 0 5vw;
 }
-#in,#out {
+#in,
+#out {
   text-align: center;
 }
 
@@ -61,7 +62,12 @@ body #in-out #output #preview {
   overflow-y: scroll;
 }
 img {
-  height:150px;
-  width:130px;
+  height: 150px;
+  width: 130px;
+}
+a {
+  color: crimson;
+  font-weight: bolder;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
